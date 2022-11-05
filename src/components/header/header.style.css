@@ -1,0 +1,118 @@
+.plus{
+    background-color: #8EC3B0;
+    margin: auto;
+    
+    min-width: 400px;
+    width: 100vw;
+    height: 100px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(25rem,1fr));
+}
+.body{
+    background-color: #8EC3B0;
+    margin: auto;
+    width: 80%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo img{
+    width: 100px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background-color: #fbeee0;
+  padding: 5px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+}
+.list ul{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+.list li {
+    list-style: none;
+}
+
+.button {
+    background-color: #fbeee0;
+    border: 2px solid #422800;
+    border-radius: 30px;
+    box-shadow: #422800 4px 4px 0 0;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .button:hover {
+    background-color: #fff;
+  }
+  
+  .button:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+  @media (max-width: 1270px) {
+    .gidici {
+      display: none;
+    }
+    .plus {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+    }
+  }
+  @media (max-width: 900px) {
+    .list{
+      font-size: 24px;
+    }
+  }
+  @media (max-width: 800px) {
+    .list{
+      font-size: 20px;
+    }
+  }
+  @media (max-width: 700px) {
+    .list{
+      font-size: 18px;
+    }
+  }
+  @media (max-width: 600px) {
+    .list{
+      font-size: 16px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .button {
+      min-width: 20px;
+      padding: 0 25px;
+    }
+    .gidici {
+      display: none;
+    }
+    .plus {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      margin: auto;
+    }
+  }

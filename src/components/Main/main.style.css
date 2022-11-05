@@ -1,0 +1,30 @@
+.footer{
+    margin: 1%;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    
+  }
+  ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: row;
+      gap: 30px;
+      list-style: none;
+  }
+ li{
+    list-style:  none;
+    text-decoration: none;
+    gap: 30px;
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+    color: black;
+    font-weight: bold;
+}

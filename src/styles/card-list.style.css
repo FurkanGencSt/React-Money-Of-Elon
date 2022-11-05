@@ -1,0 +1,27 @@
+.card-list {
+  background-color: #BCEAD5;
+    width: 80vw;
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(25rem,1fr));
+    grid-gap: 30px;
+  }
+  @media (max-width: 950px) {
+    .card-list{
+      width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(25rem,1fr));
+    grid-gap: 30px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    .card-list{
+      width: 100%;
+    margin:  auto;
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(25rem,1fr));
+    grid-gap: 30px;
+    }
+  }
